@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "GRH & Conges",
+    "slug": "grh_and_conges",
+    "version": "1.0.0",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#ffffff",
+          "sounds": [
+            "./local/assets/notification-sound.wav",
+            "./local/assets/notification-sound-other.wav"
+          ]
+        }
+      ]
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "requireFullScreen": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": ["NOTIFICATIONS"],
+      "useNextNotificationsApi": true
+    },
+    "web": {},
+    "description": ""
+  }
+}
